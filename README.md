@@ -1,5 +1,35 @@
 # EJ Rolls — ATM Electronic Journal & GL Reconciliation
 
+<!-- recruiter-snapshot:start -->
+## Recruiter Snapshot
+
+**What this shows:** Banking operations tool for parsing ATM Electronic Journal logs and reconciling them against GL/transaction statements.
+
+**My role / team role:** Mapped the reconciliation workflow, status states, preview/export flow, and banking operations case study around EJ-vs-GL matching.
+
+**Public proof:** Screenshots show file upload, missing-GL state, reconciled summary, and transaction preview with match reasons.
+
+**Tech and implementation areas:**
+- Python/Flask-style backend
+- File parsing
+- Excel/CSV processing
+- Transaction matching
+- Banking operations workflows
+
+**Relevant roles this project supports:**
+- Fintech Automation Developer
+- Banking Operations Software Developer
+- Python Developer
+- Data Reconciliation Engineer
+
+## Source Code Access
+
+This is a public case-study repository. The production source code is private because it may contain proprietary business logic, client workflows, credentials, deployment details, or reusable internal implementation patterns. The public repo is intentionally focused on the product, screenshots, workflow, architecture, and evaluation material.
+
+For technical review, we can provide a live demo walkthrough, private repository access under NDA, a code screen-share, architecture review, or redacted implementation samples.
+<!-- recruiter-snapshot:end -->
+
+
 > **Turn ATM Electronic-Journal rolls and core-banking GL statements into a clean, matched Excel reconciliation — in seconds, not days.**
 
 EJ Rolls is an ATM reconciliation tool for banking operations teams. It parses Electronic Journal (EJ) logs from ATMs — straight from the journal printer (.txt) or the EJ viewer (.pdf) — and reconciles every transaction against the core-banking General Ledger (T24 Temenos and TransactionsDetail formats), producing a complete Excel report of matched and unmatched activity.
